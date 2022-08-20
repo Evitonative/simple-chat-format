@@ -1,0 +1,7 @@
+#Set the message layout. Valid placeholders:
+# {prefix}      -  The prefix set by your permission plugin
+# {suffix}      -  The suffix set by your permission plugin
+# {displayname} -  The players displayname
+# {username}    -  The players displayname
+# {message}     -  The message send by the player
+layout: "&r{prefix}{displayname}{suffix}&r: {messsage}"

@@ -1,0 +1,12 @@
+name: SimpleChatFormat
+description: Send coloured messages and prefixes using vault.
+author: Evito
+website: https://github.com/Evitonative/Simple-Chat-Format
+version: '${project.version}'
+main: com.github.evitonative.simplechatformat.SimpleChatFormat
+api-version: 1.19
+depend:
+  - Vault
+permissions:
+  scm.inMessage:
+    default: true
