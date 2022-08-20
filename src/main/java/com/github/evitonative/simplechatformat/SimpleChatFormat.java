@@ -40,7 +40,6 @@ public final class SimpleChatFormat extends JavaPlugin implements Listener {
     public void onAsyncPlayerChatEvent(AsyncPlayerChatEvent event){
         String message = formatMessage(event.getPlayer(), event.getMessage());
         event.setFormat(message);
-        System.out.println(message);
     }
 
     @EventHandler
